@@ -1,3 +1,3 @@
 # Decodificador
 
-Uma aplicação que criptografa textos.
+Projeto da alura, uma aplicação que criptografa ou descriptografa textos.
