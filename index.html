@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Decodify</title>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Decodify</h1>
+        </header>
+        <img id="matrix" src="matrix.jpg">
+         
+        <h3 class="titulo-centralizado">Para Descriptografar ou criptografar</h3>
+
+        <p id="missao">Aplicação de criptografia de textos,
+            podendo assim trocar mensagens secretas utilizando a criptografia ou a descriptografia.</p>               
+        <main>
+            <form>
+                <label for="frase">Escreva o texto</label>
+                
+                <textarea class="text-area" cols="20"  rows="4" placeholder="Digite seu texto aqui"></textarea>
+                <textarea class="mensagem" cols="20" rows="4" placeholder="Resultado"></textarea>
+                
+                <div class="info">
+                    <h6>
+                        Apenas letras minúsculas e sem acento!</h6>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-encriptar" onclick="btnEncripito()">Criptografar</button>
+                    <button type="button" class="btn-desencriptar" onclick="btnDesencripitar()">Descriptografar</button>
+                </div>
+                <div class="resultado">
+        </main>
+        
+        <footer>
+            <p class="copyright">&copy; Copyright Decodify - Desenvolvido por: Fernanda - 2023;
+            </p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
