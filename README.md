@@ -12,3 +12,7 @@ O objetivo deste projeto é desenvolver um decodificador de texto que seja fáci
 * HTML
 * CSS
 * JavaScript
+
+## Meu projeto
+
+![Captura de tela de 2023-05-11 11-04-06](https://github.com/Fernandacarva/desafio/assets/95037445/1a5dec13-3172-43bf-b263-06151cfdbe65)
